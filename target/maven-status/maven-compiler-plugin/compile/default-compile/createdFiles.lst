@@ -1,0 +1,11 @@
+com\gekov\config\HibernateConfig.class
+com\gekov\service\PartMapper.class
+com\gekov\controller\PartController.class
+com\gekov\entity\Part.class
+com\gekov\dao\PartsRepository.class
+com\gekov\controller\MainController.class
+com\gekov\config\ThymeleafConfig.class
+com\gekov\entity\PartDto.class
+com\gekov\service\PartsService.class
+com\gekov\config\WebAppInitializer.class
+com\gekov\service\PartsServiceImpl.class

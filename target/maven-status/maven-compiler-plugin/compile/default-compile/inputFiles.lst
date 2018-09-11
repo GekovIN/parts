@@ -1,0 +1,11 @@
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\service\PartsService.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\service\PartMapper.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\config\WebAppInitializer.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\controller\MainController.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\service\PartsServiceImpl.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\entity\PartDto.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\config\ThymeleafConfig.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\dao\PartsRepository.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\entity\Part.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\controller\PartController.java
+D:\Java\SpringLessons\Parts_thymeleaf\src\main\java\com\gekov\config\HibernateConfig.java

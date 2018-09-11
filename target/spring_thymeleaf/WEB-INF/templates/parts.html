@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="header">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../resources/css/style.css" th:href="@{/resources/css/style.css}" />
+    <title th:text="#{part.page.title}">Title</title>
+</head>
+
+<body>
+<div>
+    <h1 th:text="#{part.table.caption}">Site</h1>
+    <br/>
+    <br/>
+    <table class="table_blur" align="center">
+        <!--<caption th:text="#{part.table.caption}">Site Parts</caption>-->
+        <thead>
+            <tr>
+                <th th:text="#{part.id.label}">Id</th>
+                <th th:text="#{part.name.label}">Name</th>
+                <th th:text="#{part.required.label}">Required</th>
+                <th th:text="#{part.quantity.label}">Quantity</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="p : ${parts}">
+            <td th:text="${p.id}"></td>
+            <td th:text="${p.name}"></td>
+            <td>
+                <input type="checkbox" th:checked="${p.required}" onclick="return false;"/>
+            </td>
+            <td th:text="${p.quantity}"></td>
+            <td><a class="button" href="#" th:href="@{/parts/delete(id=${p.id})}">Удалить</a> |
+                <a class="button" href="#" th:href="@{/parts/edit(id=${p.id})}">Редактировать</a>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <form action="#" th:action="@{/parts/create}" th:object="${commandpart}" method="post">
+        <table class="table_blur" align="center" >
+            <caption th:text="#{${parttype + '.part.table.caption'}}">New Part</caption>
+            <thead>
+                <tr>
+                    <th th:text="#{part.name.label}">Name</th>
+                    <th th:text="#{part.required.label}">Required</th>
+                    <th th:text="#{part.quantity.label}">Quantity</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td width="60%"><input type="text" hidden="hidden" th:field="*{id}"/>
+                        <input id="input_name_filed" type="text" th:field="*{name}"/>
+                    </td>
+                    <td width="20%"><input type="checkbox" th:field="*{required}" th:checked="*{required}"/></td>
+                    <td width="20%"><input type="text" th:field="*{quantity}"/></td>
+                </tr>
+            <tr>
+                <td>
+                    <button type="submit" th:text="#{${parttype + '.part.button.label'}}">Action</button>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+</body>
+</html>
