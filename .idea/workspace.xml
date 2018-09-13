@@ -2,54 +2,94 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Parts_thymeleaf:war exploded" />
+      <artifact name="Parts_thymeleaf:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de7f220e-5a27-405c-811f-592fbaf76425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gekov/controller/ViewFilterEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parts_thymeleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Parts_thymeleaf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/config/HibernateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/config/ThymeleafConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/config/ThymeleafConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/controller/PartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/controller/PartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/dao/PartsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/dao/PartsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/entity/PartDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/service/PartMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/service/PartsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/service/PartsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gekov/service/PartsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gekov/service/PartsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db_script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/parts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/parts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gekov/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/controller/PartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gekov/controller/PartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/dao/PartsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gekov/dao/PartsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/entity/PartDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/service/PartMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/service/PartsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gekov/service/PartsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/service/PartsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gekov/service/PartsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db_script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/controller/PartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/controller/PartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/dao/PartsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/dao/PartsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/entity/PartDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/db_script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/templates/parts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/templates/parts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_thymeleaf/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/config/CharacterEncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/config/HibernateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/config/ThymeleafConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/config/WebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/controller/PartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/dao/PartsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/entity/Part.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/service/PartsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gekov/service/PartsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db_script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/config/CharacterEncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/config/HibernateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/config/ThymeleafConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/config/WebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/controller/PartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/dao/PartsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/entity/Part.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/com/gekov/service/PartsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/db_script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/classes/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/aspectjrt-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/byte-buddy-1.8.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/hibernate-core-5.3.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/javax.servlet-jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/jstl-jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/slf4j-simple-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-aop-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-context-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-core-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-data-commons-2.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-data-jpa-2.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-expression-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-jcl-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-jdbc-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-orm-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-tx-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/spring-webmvc-5.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/thymeleaf-spring5-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/WEB-INF/templates/parts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_thymeleaf/resources/css/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,7 +158,7 @@
           <entry key="class" value="2" />
           <entry key="css" value="9" />
           <entry key="html" value="5" />
-          <entry key="iml" value="1" />
+          <entry key="iml" value="2" />
           <entry key="java" value="59" />
           <entry key="jsp" value="4" />
           <entry key="messages" value="2" />
@@ -132,7 +172,7 @@
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="9" />
           <entry key="HTML" value="5" />
-          <entry key="IDEA_MODULE" value="1" />
+          <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="59" />
           <entry key="JSP" value="4" />
           <entry key="Properties" value="11" />
@@ -150,6 +190,7 @@
           <entry key="java" value="4496" />
           <entry key="properties" value="864" />
           <entry key="sql" value="280" />
+          <entry key="txt" value="99" />
           <entry key="xml" value="68" />
         </counts>
       </usages-collector>
@@ -158,7 +199,7 @@
           <entry key="CSS" value="911" />
           <entry key="HTML" value="2531" />
           <entry key="JAVA" value="4496" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="PLAIN_TEXT" value="123" />
           <entry key="Properties" value="864" />
           <entry key="SQL" value="271" />
           <entry key="Scratch" value="9" />
@@ -173,11 +214,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/parts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+            <state relative-caret-position="-327">
+              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
               <folding>
                 <element signature="e#2#17#0" expanded="true" />
                 <element signature="e#2#20#0" expanded="true" />
@@ -191,7 +232,6 @@
                 <element signature="e#2#17#0" expanded="true" />
                 <element signature="e#2#17#0" expanded="true" />
                 <element signature="e#2#23#0" expanded="true" />
-                <element signature="e#2#28#0" expanded="true" />
                 <element signature="e#2#32#0" expanded="true" />
                 <element signature="e#2#27#0" expanded="true" />
                 <element signature="e#2#23#0" expanded="true" />
@@ -206,12 +246,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-76">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parts_thymeleaf.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-912" />
           </provider>
         </entry>
       </file>
@@ -219,7 +266,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gekov/entity/Part.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="779">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -246,7 +293,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gekov/service/PartsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -255,7 +302,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -270,18 +317,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gekov/config/ThymeleafConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -436,73 +471,6 @@
               <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gekov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gekov" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gekov" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gekov" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gekov" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gekov" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parts_thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -539,21 +507,6 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="Parts_thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="dfd39dba-6078-46bb-bb77-c21768c4fbb3" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -565,7 +518,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536867995497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536868415560" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Test2" />
@@ -602,11 +555,10 @@
   <component name="RunManager">
     <configuration name="Tomcat 9.0.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Parts_thymeleaf:war exploded">
+        <artifact name="Parts_thymeleaf:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -671,7 +623,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Parts_thymeleaf:war exploded" />
+          <artifact name="Parts_thymeleaf:war" />
         </option>
       </method>
     </configuration>
@@ -691,16 +643,23 @@
       <workItem from="1536690653884" duration="297000" />
       <workItem from="1536691011559" duration="17083000" />
       <workItem from="1536782641945" duration="15132000" />
-      <workItem from="1536854261946" duration="13494000" />
+      <workItem from="1536854261946" duration="14001000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавлено поле количества компьютеров, доступных к сборке&#10;Добавлены фильтры, поиск по имени">
+      <created>1536868084225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536868084225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74640000" />
+    <option name="totallyTimeSpent" value="75147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -724,7 +683,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.2580645" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3283859" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -732,7 +691,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.22267206" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.22228146" />
       <window_info anchor="right" id="Database" order="6" weight="0.2468017" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -741,8 +700,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлено поле количества компьютеров, доступных к сборке&#10;Добавлены фильтры, поиск по имени" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено поле количества компьютеров, доступных к сборке&#10;Добавлены фильтры, поиск по имени" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
@@ -777,9 +766,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gekov/config/MyWebMvcConfigurer.java" />
     <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/templates/parts.html" />
     <entry file="file://$PROJECT_DIR$/webapp/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/Parts_thymeleaf.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
@@ -917,7 +903,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gekov/entity/Part.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -931,24 +917,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gekov/service/PartsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Parts_thymeleaf.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/parts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        <state relative-caret-position="-327">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
           <folding>
             <element signature="e#2#17#0" expanded="true" />
             <element signature="e#2#20#0" expanded="true" />
@@ -962,7 +960,6 @@
             <element signature="e#2#17#0" expanded="true" />
             <element signature="e#2#17#0" expanded="true" />
             <element signature="e#2#23#0" expanded="true" />
-            <element signature="e#2#28#0" expanded="true" />
             <element signature="e#2#32#0" expanded="true" />
             <element signature="e#2#27#0" expanded="true" />
             <element signature="e#2#23#0" expanded="true" />
@@ -973,13 +970,6 @@
             <element signature="e#2#40#0" expanded="true" />
             <element signature="e#2#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
