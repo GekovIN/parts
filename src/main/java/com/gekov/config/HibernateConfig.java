@@ -21,7 +21,6 @@ import java.util.Properties;
 @PropertySource("classpath:db.properties")
 @EnableJpaRepositories("com.gekov.dao")
 @EnableTransactionManagement
-//@ComponentScan( {"com.gekov.dao", "com.gekov.service", "com.gekov.entity"} )
 public class HibernateConfig {
 
     @Autowired

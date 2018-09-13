@@ -8,4 +8,5 @@ com\gekov\config\ThymeleafConfig.class
 com\gekov\entity\PartDto.class
 com\gekov\service\PartsService.class
 com\gekov\config\WebAppInitializer.class
+com\gekov\config\CharacterEncodingFilter.class
 com\gekov\service\PartsServiceImpl.class

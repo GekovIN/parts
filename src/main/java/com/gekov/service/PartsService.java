@@ -14,23 +14,17 @@ public interface PartsService {
 
     void deletePart(Long id);
 
-    //List<Part> getAllParts();
-
-    boolean addPart(Part part);
-
     void updatePart(Part part);
-
-    boolean isPartAvailable(Part part);
 
     List<Part> getPartByName(String name);
 
-    void deleteAllParts();
+    Page<Part> findAllRequiredIsTrue(Pageable pageable);
 
-    List<Part> getAllRequired();
+    Page<Part> findAllRequiredIsFalse(Pageable pageable);
 
     Integer getNumberOfComputers();
 
     Page<Part> findAllPageable(Pageable pageable);
 
-    Part findByName(String name);
+    List<Part> findByName(String name);
 }

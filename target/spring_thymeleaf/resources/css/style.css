@@ -1,7 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 1em;
+
 }
+
+html{
+    background-color: #9c9ea2;
+
+}
+
+/*#body-div {*/
+    /*width: 100%;*/
+/*}*/
 
 caption {
     font-size: 18px;
@@ -88,7 +98,7 @@ caption {
 }
 
 button, a.button {
-    background-color: #9c9ea2;
+    background-color: #caccd0;
     font-size: 14px;
     display: inline-block;
     color: #000000;
@@ -99,6 +109,40 @@ button, a.button {
     outline: none;
     border: none;
     transition: 0.2s;
+}
+
+.pagination-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /*margin-left: 7em;*/
+}
+
+.pagination {
+    display: inline-block;
+
+}
+
+.pagination a {
+    background-color: #9c9ea2;
+    font-size: 14px;
+    display: inline-block;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    /*user-select: none;*/
+    padding: .5em 1em;
+    margin-top: 10px;
+    margin-right: 10px;
+    outline: 1px solid black !important;
+    /*border: black !important;*/
+    /*transition: 0.2s;*/
+}
+
+.another_page{
+    opacity: 0.2;
+}
+.current_page {
+    opacity: 1;
 }
 
 button:hover {

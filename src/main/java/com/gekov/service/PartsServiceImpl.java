@@ -17,16 +17,15 @@ public class PartsServiceImpl implements PartsService {
     @Autowired
     private PartsRepository repository;
 
-    public boolean addPart(Part part) {
-        if (repository.findAllByName(part.getName()).size() == 0)
-            return false;
-
-        repository.save(part);
-        return true;
-    }
-
     public void updatePart(Part part) {
-        Part updatedPart = repository.findById(part.getId()).get();
+        Optional<Part> optionalPart = repository.findById(part.getId());
+
+        Part updatedPart;
+
+        if (optionalPart.isPresent())
+            updatedPart = optionalPart.get();
+        else return;
+
         updatedPart.setName(part.getName());
         updatedPart.setRequired(part.isRequired());
         updatedPart.setQuantity(part.getQuantity());
@@ -39,44 +38,41 @@ public class PartsServiceImpl implements PartsService {
     }
 
     public void savePart(Part part) {
-        repository.save(part);
+        List<Part> allByName = repository.findAllByName(part.getName());
+        if (allByName.isEmpty()) {
+            repository.save(part);
+        }
     }
 
+    @Override
     public void deletePart(Long id) {
         repository.deleteById(id);
     }
 
-//    public List<Part> getAllParts() {
-//        return repository.findAll();
-//    }
-
-    public boolean isPartAvailable(Part part) {
-        return (getPartById(part.getId()) != null) || (getPartByName(part.getName()) != null && (getPartByName(part.getName()).size() > 0));
-    }
-
+    @Override
     public List<Part> getPartByName(String name) {
         return repository.findAllByName(name);
     }
 
     @Override
-    public void deleteAllParts() {
-        repository.deleteAll();
+    public Page<Part> findAllRequiredIsTrue(Pageable pageable) {
+        return repository.findByRequiredIsTrue(pageable);
     }
 
     @Override
-    public List<Part> getAllRequired() {
-        return repository.findAllByRequired(true);
+    public Page<Part> findAllRequiredIsFalse(Pageable pageable) {
+        return repository.findByRequiredIsFalse(pageable);
     }
 
+// Вычисляем количество компьютеров, готовых к сборке:
     @Override
     public Integer getNumberOfComputers() {
-        List<Part> allRequired = getAllRequired();
-
+        List<Part> allRequired = repository.findAllByRequiredIsTrue();
         if (allRequired.isEmpty())
             return 0;
 
         int minQuantity = allRequired.get(0).getQuantity();
-        for (Part part : getAllRequired()) {
+        for (Part part : allRequired) {
             if (part.getQuantity() < minQuantity)
                 minQuantity = part.getQuantity();
         }
@@ -89,8 +85,8 @@ public class PartsServiceImpl implements PartsService {
     }
 
     @Override
-    public Part findByName(String name) {
-        return repository.findAllByName(name).get(0);
+    public List<Part> findByName(String name) {
+        return repository.findAllByName(name);
     }
 
 }

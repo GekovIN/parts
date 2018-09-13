@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class MainController {
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping
     public String getHomePage() {
         return "redirect:/parts";
     }

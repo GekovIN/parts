@@ -13,7 +13,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="Entities" />
-          <factory-entry name="entityManagerFactory" />
+          <factory-entry name="entityManagerFactory" value="dfd39dba-6078-46bb-bb77-c21768c4fbb3" />
         </datasource-mapping>
       </configuration>
     </facet>

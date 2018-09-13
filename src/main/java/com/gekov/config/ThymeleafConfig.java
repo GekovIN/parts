@@ -1,15 +1,11 @@
 package com.gekov.config;
 
-import com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
-import org.springframework.core.Ordered;
-import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -20,9 +16,6 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ITemplateResolver;
-
-import javax.servlet.Filter;
-
 
 @Configuration
 @EnableWebMvc
@@ -74,14 +67,5 @@ public class ThymeleafConfig implements WebMvcConfigurer, ApplicationContextAwar
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
     }
-
-//    @Bean
-//    public Filter characterEncodingFilter() {
-//        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
-//        characterEncodingFilter.setEncoding("UTF-8");
-//        characterEncodingFilter.setForceEncoding(true);
-//        return characterEncodingFilter;
-//    }
-
 
 }
