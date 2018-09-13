@@ -109,7 +109,7 @@
                                th:placeholder="#{namefield.placeholder}"/>
                     </td>
                     <td width="20%"> <input type="checkbox" th:field="*{required}" th:checked="*{required}"> </td>
-                    <td width="20%"> <input type="text" th:field="*{quantity}"/></td>
+                    <td width="20%"> <input type="number" th:field="*{quantity}"/></td>
                     <td>
                         <button type="submit" th:text="#{${parttype + '.part.button.label'}}">Action</button>
                     </td>
